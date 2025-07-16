@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plângere - Construcții Neautorizate</title>
+    
+    <style>
+        /* CSS Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        /* Container for content */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        /* Header styling */
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+        
+        /* Petition text styling */
+        .petition-text {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .petition-text h2 {
+            color: #2c3e50;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .petition-text p, .petition-text ul {
+            margin-bottom: 15px;
+        }
+        
+        .petition-text ul {
+            padding-left: 30px;
+        }
+        
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 14px;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        /* Form styling */
+        .form-section {
+            background-color: #e8f4f8;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        
+        .form-section h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        
+        input:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        
+        /* Button styling */
+        .submit-btn {
+            background-color: #27ae60;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+        
+        .submit-btn:hover {
+            background-color: #229954;
+        }
+        
+        .submit-btn:active {
+            transform: scale(0.98);
+        }
+        
+        /* Info box */
+        .info-box {
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            color: #856404;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        /* Mobile responsiveness */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 20px;
+            }
+            
+            table {
+                font-size: 12px;
+            }
+            
+            th, td {
+                padding: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Plângere Administrativă - Construcții Neautorizate</h1>
+        
+        <div class="info-box">
+            <strong>⚠️ Atenție:</strong> Citiți cu atenție textul plângerii de mai jos. Completând formularul și apăsând butonul, veți genera un email pre-completat cu datele dumneavoastră.
+        </div>
+        
+        <div class="petition-text">
+            <h2>Textul Plângerii:</h2>
+            
+            <p><strong>CĂTRE</strong><br>
+            INSPECTORATUL DE STAT ÎN CONSTRUCȚII – INSPECȚIA REGIONALĂ ÎN CONSTRUCȚII BUCUREȘTI-ILFOV</p>
+            
+            <p>DOMNULE INSPECTOR ȘEF,</p>
+            
+            <p>SUBSEMNATUL/SUBSEMNATA: [SE VA COMPLETA CU NUMELE DVS.]<br>
+            cu domiciliul în [SE VA COMPLETA CU ADRESA DVS.]<br>
+            telefon [SE VA COMPLETA CU TELEFONUL DVS.], e-mail [SE VA COMPLETA CU EMAIL-UL DVS.]</p>
+            
+            <p>în temeiul dispozițiilor art. 7 din Legea nr. 554/2004 a contenciosului administrativ, coroborat cu art. 2 alin. (1) lit. p) din Legea nr. 50/1991 privind autorizarea executării lucrărilor de construcții, precum și cu dispozițiile Legii nr. 544/2001 privind liberul acces la informațiile de interes public, formulez prezenta</p>
+            
+            <p><strong>PLÂNGERE ADMINISTRATIVĂ</strong></p>
+            
+            <p>cu privire la încălcările flagrante ale regimului juridic al construcțiilor și urbanismului săvârșite în zona Calea Vitan – Strada Hornului – Intrarea Hornului, Sector 3, București, unde au fost amplasate, fără autorizație de construire și pe domeniul public în lipsa oricărui titlu:</p>
+            
+            <ul>
+                <li>platforme betonate pe domeniul public,</li>
+                <li>construcții provizorii de tip chioșc comercial din panouri sandwich racordate la utilități publice</li>
+            </ul>
+            
+            <p>toate acestea în lipsa oricărei autorizații de construire sau a panoului de șantier prevăzut de lege, pe terenuri care aparțin domeniului public al municipiului București.</p>
+            
+            <h2>I. SITUAȚIA DE FAPT</h2>
+            <p>În zona mai sus menționată, s-au executat, în mod nelegal, mai multe lucrări de construcție și amplasare de chioșcuri comerciale, fără respectarea condițiilor legale privind regimul autorizării lucrărilor de construcții, regimul de protecție a spațiilor verzi și normele de prevenire și stingere a incendiilor.</p>
+            
+            <p>Aceste construcții afectează vizibilitatea în zona trecerilor de pietoni, obstrucționează accesul pietonal și auto, reduc spațiul public disponibil pentru circulație și generează un potențial serios de risc la incendiu prin nerespectarea distanțelor minime impuse de normele tehnice aplicabile.</p>
+            
+            <h2>II. ÎNCĂLCAREA NORMELOR LEGALE ȘI TEHNICE</h2>
+            
+            <p><strong>1. Nerespectarea dispozițiilor Legii nr. 50/1991</strong><br>
+            Potrivit art. 1 alin. (1) și (2) din Legea 50/1991, executarea lucrărilor de construire, reabilitare, modificare, schimbare de destinație se poate face numai în baza autorizației de construire.<br>
+            În speță, toate aceste construcții au fost executate fără autorizație, fapt ce atrage caracterul nelegal al lucrărilor și incidența art. 28 din lege, referitor la sancțiuni și desființarea construcțiilor neautorizate.</p>
+            
+            <p><strong>2. Încălcarea normativelor tehnice P 118-1/2025 și STAS 2900/2-1986</strong><br>
+            Aceste norme prevăd distanțe minime de siguranță între construcții, pentru prevenirea riscurilor de incendiu, colaps structural și afectarea circulației pietonale și rutiere:</p>
+            <ul>
+                <li>minim 8 metri, conform P 118-1/2025,</li>
+                <li>minim 10 metri, conform STAS 2900/2-1986.</li>
+            </ul>
+            
+            <p>De asemenea, conform Regulamentului Local de Urbanism al Municipiului București, distanța minimă față de trecerea de pietoni pentru amplasarea construcțiilor provizorii este de cel puțin 5 metri, cerință care nu a fost respectată.</p>
+            
+            <p><strong>3. Încălcarea prevederilor Legii nr. 307/2006 privind apărarea împotriva incendiilor</strong><br>
+            Prin apropierea excesivă de clădiri existente (Clinica Condor, Mega Image), aceste construcții provoacă un risc real de propagare rapidă a unui eventual incendiu, încălcând normele minimale de prevenție.</p>
+            
+            <p><strong>4. Încălcarea regimului juridic al domeniului public</strong><br>
+            Terenurile pe care au fost executate lucrările fac parte din domeniul public, conform art. 136 alin. (4) din Constituția României și art. 1 alin. (2) din Legea nr. 213/1998. Nicio construcție nu poate fi edificată pe domeniul public fără act administrativ prealabil de concesiune sau administrare și fără respectarea procedurii legale.</p>
+            
+            <h2>III. LOCAȚIILE VIZATE</h2>
+            <p>Redau mai jos, punctual, coordonatele GPS și descrierea fiecărei locații afectate, pentru o constatare operativă:</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nr.</th>
+                        <th>Coordonate GPS</th>
+                        <th>Descriere</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>L1</td>
+                        <td>44.4227838, 26.1245170</td>
+                        <td>Colț Mega Image – Piața Vitan – platformă betonată și chioșc în construcție pe fost spațiu verde</td>
+                    </tr>
+                    <tr>
+                        <td>L2</td>
+                        <td>44.4227543, 26.1247031</td>
+                        <td>În fața clinicii Condor – platformă betonată și chioșc în construcție</td>
+                    </tr>
+                    <tr>
+                        <td>L3</td>
+                        <td>44.4226835, 26.1250655</td>
+                        <td>Platformă betonată și chioșcuri în construcție pe spațiul verde al curții Policlinicii Vitan</td>
+                    </tr>
+                    <tr>
+                        <td>L4</td>
+                        <td>44.4221237, 26.1244828</td>
+                        <td>Calea Vitan – chioșcuri amplasate pe foste locuri de parcare</td>
+                    </tr>
+                    <tr>
+                        <td>L5</td>
+                        <td>44.4232270, 26.1237857</td>
+                        <td>Platformă nou betonată și chioșc în construcție pe domeniul public</td>
+                    </tr>
+                    <tr>
+                        <td>L6</td>
+                        <td>44.4233209, 26.1237532</td>
+                        <td>Chioșc în construcție pe foste locuri de parcare</td>
+                    </tr>
+                    <tr>
+                        <td>L7</td>
+                        <td>44.4230719, 26.1248593</td>
+                        <td>Chioșcuri amplasate pe foste locuri de parcare, în lateralul clădirii Condor</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h2>IV. SOLICITĂRI</h2>
+            <p>În dreptul și interesul public, vă solicit următoarele:</p>
+            <ol>
+                <li>Constatarea contravențiilor potrivit Legii 50/1991 și aplicarea sancțiunilor corespunzătoare persoanelor fizice sau juridice implicate;</li>
+                <li>Emiterea unui refuz expres privind intrarea în legalitate, având în vedere că terenurile afectate nu respectă cerințele urbanistice și de siguranță necesare;</li>
+                <li>Dispunerea măsurii de desființare a construcțiilor neautorizate și readucerea terenului la starea inițială, potrivit art. 28 alin. (1) din Legea 50/1991;</li>
+                <li>Comunicarea tuturor actelor administrative care ar fi putut fi emise în legătură cu aceste amplasamente.</li>
+            </ol>
+            
+            <h2>V. ANEXE</h2>
+            <p>Fotografii doveditoare și capturi satelit cu identificarea locațiilor sunt disponibile la următorul link: [LINK GOOGLE DRIVE CU FOTOGRAFII]</p>
+        </div>
+        
+        <div class="form-section">
+            <h2>Completați datele dumneavoastră:</h2>
+            
+            <form id="petitionForm">
+                <div class="form-group">
+                    <label for="name">Nume și Prenume:</label>
+                    <input type="text" id="name" name="name" required placeholder="Ex: Popescu Ion">
+                </div>
+                
+                <div class="form-group">
+                    <label for="address">Domiciliu complet:</label>
+                    <input type="text" id="address" name="address" required placeholder="Ex: Str. Mihai Eminescu nr. 10, bl. A2, sc. 1, ap. 15, București">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Telefon:</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="Ex: 0722123456">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Ex: nume.prenume@email.com">
+                </div>
+                
+                <button type="submit" class="submit-btn">📧 Generează Email-ul</button>
+            </form>
+        </div>
+    </div>
+    
+    <script>
+        // JavaScript code to handle form submission
+        document.getElementById('petitionForm').addEventListener('submit', function(e) {
+            // Prevent default form submission
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const address = document.getElementById('address').value;
+            const phone = document.getElementById('phone').value;
+            const email = document.getElementById('email').value;
+            
+            // Get current date in Romanian format
+            const today = new Date();
+            const day = today.getDate();
+            const month = today.getMonth() + 1;
+            const year = today.getFullYear();
+            const dateString = `${day}.${month}.${year}`;
+            
+            // Email recipient (will be updated with real address)
+            const recipient = 'lish@filantro.ro';
+            
+            // Email subject
+            const subject = 'PLÂNGERE ADMINISTRATIVĂ - Construcții neautorizate zona Vitan-Hornului';
+            
+            // Construct email body
+            const emailBody = `CĂTRE
+INSPECTORATUL DE STAT ÎN CONSTRUCȚII – INSPECȚIA REGIONALĂ ÎN CONSTRUCȚII BUCUREȘTI-ILFOV
+
+DOMNULE INSPECTOR ȘEF,
+
+SUBSEMNATUL/SUBSEMNATA: ${name},
+cu domiciliul în ${address},
+telefon ${phone}, e-mail ${email},
+
+în temeiul dispozițiilor art. 7 din Legea nr. 554/2004 a contenciosului administrativ, coroborat cu art. 2 alin. (1) lit. p) din Legea nr. 50/1991 privind autorizarea executării lucrărilor de construcții, precum și cu dispozițiile Legii nr. 544/2001 privind liberul acces la informațiile de interes public, formulez prezenta
+
+PLÂNGERE ADMINISTRATIVĂ
+
+cu privire la încălcările flagrante ale regimului juridic al construcțiilor și urbanismului săvârșite în zona Calea Vitan – Strada Hornului – Intrarea Hornului, Sector 3, București, unde au fost amplasate, fără autorizație de construire și pe domeniul public în lipsa oricărui titlu:
+• platforme betonate pe domeniul public,
+• construcții provizorii de tip chioșc comercial din panouri sandwich racordate la utilități publice
+
+toate acestea în lipsa oricărei autorizații de construire sau a panoului de șantier prevăzut de lege, pe terenuri care aparțin domeniului public al municipiului București.
+
+I. SITUAȚIA DE FAPT
+
+În zona mai sus menționată, s-au executat, în mod nelegal, mai multe lucrări de construcție și amplasare de chioșcuri comerciale, fără respectarea condițiilor legale privind regimul autorizării lucrărilor de construcții, regimul de protecție a spațiilor verzi și normele de prevenire și stingere a incendiilor.
+
+Aceste construcții afectează vizibilitatea în zona trecerilor de pietoni, obstrucționează accesul pietonal și auto, reduc spațiul public disponibil pentru circulație și generează un potențial serios de risc la incendiu prin nerespectarea distanțelor minime impuse de normele tehnice aplicabile.
+
+II. ÎNCĂLCAREA NORMELOR LEGALE ȘI TEHNICE
+
+1. Nerespectarea dispozițiilor Legii nr. 50/1991
+Potrivit art. 1 alin. (1) și (2) din Legea 50/1991, executarea lucrărilor de construire, reabilitare, modificare, schimbare de destinație se poate face numai în baza autorizației de construire.
+În speță, toate aceste construcții au fost executate fără autorizație, fapt ce atrage caracterul nelegal al lucrărilor și incidența art. 28 din lege, referitor la sancțiuni și desființarea construcțiilor neautorizate.
+
+2. Încălcarea normativelor tehnice P 118-1/2025 și STAS 2900/2-1986
+Aceste norme prevăd distanțe minime de siguranță între construcții, pentru prevenirea riscurilor de incendiu, colaps structural și afectarea circulației pietonale și rutiere:
+• minim 8 metri, conform P 118-1/2025,
+• minim 10 metri, conform STAS 2900/2-1986.
+
+De asemenea, conform Regulamentului Local de Urbanism al Municipiului București, distanța minimă față de trecerea de pietoni pentru amplasarea construcțiilor provizorii este de cel puțin 5 metri, cerință care nu a fost respectată.
+
+3. Încălcarea prevederilor Legii nr. 307/2006 privind apărarea împotriva incendiilor
+Prin apropierea excesivă de clădiri existente (Clinica Condor, Mega Image), aceste construcții provoacă un risc real de propagare rapidă a unui eventual incendiu, încălcând normele minimale de prevenție.
+
+4. Încălcarea regimului juridic al domeniului public
+Terenurile pe care au fost executate lucrările fac parte din domeniul public, conform art. 136 alin. (4) din Constituția României și art. 1 alin. (2) din Legea nr. 213/1998. Nicio construcție nu poate fi edificată pe domeniul public fără act administrativ prealabil de concesiune sau administrare și fără respectarea procedurii legale.
+
+III. LOCAȚIILE VIZATE
+
+Redau mai jos, punctual, coordonatele GPS și descrierea fiecărei locații afectate, pentru o constatare operativă:
+
+Nr. | Coordonate GPS | Descriere
+L1 | 44.4227838, 26.1245170 | Colț Mega Image – Piața Vitan – platformă betonată și chioșc în construcție pe fost spațiu verde (domeniu public); distanță față de clădirea Mega Image < 5 m pe latura estică; foarte aproape de trecerea de pietoni – risc vizibilitate redusă participanți la trafic
+L2 | 44.4227543, 26.1247031 | În fața clinicii Condor – platformă betonată și chioșc în construcție (domeniu public, fost spațiu verde, arbori tăiați); distanță aproximativă 6-7 m față de fațada clinicii (minim 8–10 m cerut); situată între parcări, pe mijlocul drumului – acces îngreunat, potențial de risc
+L3 | 44.4226835, 26.1250655 | Platformă betonată și chioșcuri în construcție pe spațiul verde al curții Policlinicii Vitan (domeniu public); arbori eliminați, pământ nivelat
+L4 | 44.4221237, 26.1244828 | Calea Vitan – chioșcuri amplasate pe foste locuri de parcare aflate pe domeniul public; trotuar insuficient (rămân 1,2 m utili)
+L5 | 44.4232270, 26.1237857 | Platformă nou betonată și chioșc în construcție pe domeniul public (fost spațiu verde), aproape de linia de tramvai; distanță față de chioșcul de vis a vis ~11 m (sub 15 m recomandat pentru risc C)
+L6 | 44.4233209, 26.1237532 | Chioșc în construcție pe foste locuri de parcare (domeniul public); nu respectă distanța față de L5, aflat vis a vis (sub 15 m recomandat pentru risc C)
+L7 | 44.4230719, 26.1248593 | Chioșcuri amplasate pe foste locuri de parcare, cu ieșirea direct la stradă, în lateralul clădirii Condor; distanță 3-4 m de clădire; distanță 1.5 m de clădirea Mega Image; lipsă trotuar
+
+IV. SOLICITĂRI
+
+În dreptul și interesul public, vă solicit următoarele:
+1. Constatarea contravențiilor potrivit Legii 50/1991 și aplicarea sancțiunilor corespunzătoare persoanelor fizice sau juridice implicate;
+2. Emiterea unui refuz expres privind intrarea în legalitate, având în vedere că terenurile afectate nu respectă cerințele urbanistice și de siguranță necesare;
+3. Dispunerea măsurii de desființare a construcțiilor neautorizate și readucerea terenului la starea inițială, potrivit art. 28 alin. (1) din Legea 50/1991;
+4. Comunicarea tuturor actelor administrative care ar fi putut fi emise în legătură cu aceste amplasamente (autorizări, avize, contracte de administrare sau concesiune etc.), în temeiul Legii 544/2001 privind accesul la informațiile de interes public.
+
+V. ANEXE
+
+Fotografii doveditoare și capturi satelit cu identificarea locațiilor sunt disponibile la următorul link:
+[INSERAȚI AICI LINK-UL GOOGLE DRIVE CU FOTOGRAFIILE]
+
+În temeiul dispozițiilor legale mai sus invocate, vă solicit să dispuneți verificările de rigoare și să îmi comunicați, în termenul legal, măsurile luate.
+
+Data: ${dateString}
+
+Semnătura: ${name}`;
+            
+            // Create mailto link
+            // encodeURIComponent ensures special characters are properly encoded for URLs
+            const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
+            
+            // Open the email client
+            window.location.href = mailtoLink;
+            
+            // Optional: Show a confirmation message
+            alert('Email-ul a fost generat! Aplicația dvs. de email se va deschide automat. Nu uitați să adăugați link-ul către fotografiile din Google Drive înainte de a trimite!');
+        });
+    </script>
+</body>
+</html>
